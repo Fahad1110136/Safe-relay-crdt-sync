@@ -1,0 +1,13 @@
+attack,step,undelivered_before,undelivered_after,wilcoxon_p
+fake_small,none -> D1,12.765151515151516,12.765151515151516,n/a (identical)
+fake_small,D1 -> D1+D2,12.765151515151516,9.174242424242424,<0.001
+fake_small,D1+D2 -> D1+D2+D3,9.174242424242424,8.507575757575756,0.091
+fake_large,none -> D1,100.0,100.0,n/a (identical)
+fake_large,D1 -> D1+D2,100.0,100.0,n/a (identical)
+fake_large,D1+D2 -> D1+D2+D3,100.0,8.246212121212121,<0.001
+relabel,none -> D1,83.69696969696969,100.0,<0.001
+relabel,D1 -> D1+D2,100.0,100.0,n/a (identical)
+relabel,D1+D2 -> D1+D2+D3,100.0,8.246212121212121,<0.001
+blackhole,none -> D1,1.409090909090909,1.409090909090909,n/a (identical)
+blackhole,D1 -> D1+D2,1.409090909090909,1.409090909090909,n/a (identical)
+blackhole,D1+D2 -> D1+D2+D3,1.409090909090909,1.409090909090909,n/a (identical)
